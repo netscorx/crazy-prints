@@ -4,6 +4,7 @@ import HeaderRescription from "../../Components/Header/HeaderRescription";
 import About from "../../Components/About/About";
 import Benefits from "../../Components/Benefits/Benefits";
 import Variants from "../../Components/Benefits/Variants";
+import HowItsWorks from "../../Components/HowItsWorks/HowItsWorks";
 
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
       <div class="bg-gradient-to-b from-f-white to-t-pink flex justify-center flex-col">
         <Benefits />
         <Variants />
+        <HowItsWorks />
       </div>
     </div>
   );
