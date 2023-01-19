@@ -18,11 +18,17 @@ module.exports = {
         variant2img: "url('/src/Components/Theme/Img/variant2img.png')",
         questionImage: "url('/src/Components/Theme/Img/question.png')",
         showcase: "url('/src/Components/Theme/Img/ShowCase.png')",
+        testimonials: "url('/src/Components/Theme/Img/Testimonials.png')",
       },
       colors: {
         "regular-blue": "#3C6772",
         "f-white": "#FFF7E9",
         "t-pink": "#FDE3B5",
+        "bg-card": "rgba(122, 181, 159, 0.3)",
+      },
+      boxShadow: {
+        "card-shadow":
+          "inset 0px 0px 34.0148px rgba(255, 255, 255, 0.05), inset 0px 2.26765px 2.26765px rgba(255, 255, 255, 0.15)",
       },
     },
   },

@@ -7,6 +7,7 @@ import Variants from "../../Components/Benefits/Variants";
 import HowItsWorks from "../../Components/HowItsWorks/HowItsWorks";
 import Question from "../../Components/Question/Question";
 import ShowCase from "../../Components/Showcase/ShowCase";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 
 export default function Main() {
   return (
@@ -24,6 +25,7 @@ export default function Main() {
       <div class="bg-questionImage bg-cover">
         <Question />
         <ShowCase />
+        <Testimonials />
       </div>
     </div>
   );
