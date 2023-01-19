@@ -6,6 +6,7 @@ import Benefits from "../../Components/Benefits/Benefits";
 import Variants from "../../Components/Benefits/Variants";
 import HowItsWorks from "../../Components/HowItsWorks/HowItsWorks";
 import Question from "../../Components/Question/Question";
+import ShowCase from "../../Components/Showcase/ShowCase";
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
       </div>
       <div class="bg-questionImage bg-cover">
         <Question />
+        <ShowCase />
       </div>
     </div>
   );
