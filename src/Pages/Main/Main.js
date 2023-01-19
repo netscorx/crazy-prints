@@ -5,6 +5,7 @@ import About from "../../Components/About/About";
 import Benefits from "../../Components/Benefits/Benefits";
 import Variants from "../../Components/Benefits/Variants";
 import HowItsWorks from "../../Components/HowItsWorks/HowItsWorks";
+import Question from "../../Components/Question/Question";
 
 export default function Main() {
   return (
@@ -14,10 +15,13 @@ export default function Main() {
         <HeaderRescription />
         <About />
       </div>
-      <div class="bg-gradient-to-b from-f-white to-t-pink flex justify-center flex-col">
+      <div class="bg-gradient-to-b from-f-white to-t-pink flex justify-center flex-col pb-[80px]">
         <Benefits />
         <Variants />
         <HowItsWorks />
+      </div>
+      <div class="bg-questionImage bg-cover">
+        <Question />
       </div>
     </div>
   );

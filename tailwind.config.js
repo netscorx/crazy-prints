@@ -16,6 +16,7 @@ module.exports = {
         variant2: "url('/src/Components/Theme/Img/Variant2.png')",
         variant1img: "url('/src/Components/Theme/Img/variant1img.png')",
         variant2img: "url('/src/Components/Theme/Img/variant2img.png')",
+        questionImage: "url('/src/Components/Theme/Img/question.png')",
       },
       colors: {
         "regular-blue": "#3C6772",
