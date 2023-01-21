@@ -21,8 +21,8 @@ export default function HowItsWorks() {
                   1
                 </p>
               </div>
-              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-5" />
-              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-5" />
+              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-[0.5]" />
+              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-[0.5]" />
               <div class="flex justify-center items-center w-[367px] h-[367px] rounded-[50%] border-4 border-[#2E5058] relative">
                 <div class="w-[322px] h-[322px] bg-[#2E5058] rounded-[50%]">
                   <div class="flex items-center flex-col px-[20px] py-[55px]">
@@ -49,8 +49,8 @@ export default function HowItsWorks() {
                   2
                 </p>
               </div>
-              <div class="w-[80px] h-[80px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-5" />
-              <div class="w-[270px] h-[270px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-5" />
+              <div class="w-[80px] h-[80px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-[0.5]" />
+              <div class="w-[270px] h-[270px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-[0.5]" />
               <div class="flex justify-center items-center w-[367px] h-[367px] rounded-[50%] border-4 border-[#4E9C7F] relative">
                 <div class="w-[322px] h-[322px] bg-[#4E9C7F] rounded-[50%]">
                   <div class="flex items-center flex-col px-[20px] py-[55px]">
@@ -77,8 +77,8 @@ export default function HowItsWorks() {
                   3
                 </p>
               </div>
-              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-5" />
-              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-5" />
+              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-[0.5]" />
+              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-[0.5]" />
               <div class="flex justify-center items-center w-[367px] h-[367px] rounded-[50%] border-4 border-[#2E5058] relative">
                 <div class="w-[322px] h-[322px] bg-[#2E5058] rounded-[50%]">
                   <div class="flex items-center flex-col px-[20px] py-[55px]">
@@ -106,8 +106,8 @@ export default function HowItsWorks() {
                   4
                 </p>
               </div>
-              <div class="w-[80px] h-[80px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-5" />
-              <div class="w-[270px] h-[270px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-5" />
+              <div class="w-[80px] h-[80px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-[0.5]" />
+              <div class="w-[270px] h-[270px] bg-[#4E9C7F] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-[0.5]" />
               <div class="flex justify-center items-center w-[367px] h-[367px] rounded-[50%] border-4 border-[#4E9C7F] relative">
                 <div class="w-[322px] h-[322px] bg-[#4E9C7F] rounded-[50%]">
                   <div class="flex items-center flex-col px-[20px] py-[55px]">
@@ -133,8 +133,8 @@ export default function HowItsWorks() {
                   5
                 </p>
               </div>
-              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-5" />
-              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-5" />
+              <div class="w-[80px] h-[80px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[50%] left-[87%] opacity-[0.5]" />
+              <div class="w-[270px] h-[270px] bg-[#2E5058] absolute rounded-[50%] flex items-center justify-center top-[33%] opacity-[0.5]" />
               <div class="flex justify-center items-center w-[367px] h-[367px] rounded-[50%] border-4 border-[#2E5058] relative">
                 <div class="w-[322px] h-[322px] bg-[#2E5058] rounded-[50%]">
                   <div class="flex items-center flex-col px-[20px] py-[55px]">
@@ -155,7 +155,7 @@ export default function HowItsWorks() {
         </div>
       </div>
       <div>
-        <p class="font-main text-[24px] mt-[64px] mx-[175px]">
+        <p class="font-main text-[24px] mt-[64px] mx-[175px] text-center">
           Creating a personalized storybook with CrazyPrints is a fun, easy, and
           unique way to become the hero of your own story. With a wide variety
           of themes and genres to choose from, the possibilities are endless.

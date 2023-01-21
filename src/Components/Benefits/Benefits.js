@@ -7,7 +7,7 @@ export default function Benefits() {
         <h2 class="font-about text-regular-blue text-[64px] leading-[77px] mb-[24px] ">
           Benefits
         </h2>
-        <p class="font-main text-[20px]">
+        <p class="font-main text-[20px] text-center">
           At CrazyPrints, we offer many benefits to our customers that set us
           apart from traditional storybook creators. Here are just a few of the
           many advantages of using our AI-powered storybook creator:
@@ -42,7 +42,7 @@ export default function Benefits() {
         </div>
         <div class="flex items-center flex-col">
           <img
-            class="max-w-[none]"
+            class="max-w-[none] mx-[50px]"
             src={require("../Theme/Img/image-5.png")}
             alt="Benefits"
           />
