@@ -1,6 +1,10 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { openModal } from "../../store/helpers/helpersSlice";
 
 export default function Header() {
+  const dispatch = useDispatch();
+
   return (
     <div class="flex items-center justify-between mx-[64px] pt-[20px]">
       <div class="flex items-center">
@@ -42,7 +46,12 @@ export default function Header() {
             </a>
           </li>
         </ul>
-        <button class="btn flex items-center justify-center ml-[32px]">
+        <button
+          class="btn flex items-center justify-center ml-[32px] "
+          onClick={() => {
+            dispatch(openModal(true));
+          }}
+        >
           Get started now
         </button>
       </div>

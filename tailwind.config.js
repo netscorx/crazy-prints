@@ -25,6 +25,7 @@ module.exports = {
         "f-white": "#FFF7E9",
         "t-pink": "#FDE3B5",
         "bg-card": "rgba(122, 181, 159, 0.3)",
+        "modal": "rgba(0, 0, 0, 0.62)",
       },
       boxShadow: {
         "card-shadow":
