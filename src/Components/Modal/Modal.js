@@ -16,9 +16,9 @@ export default function Modal({ Name, Brif, Ganre }) {
         onClick={(e) => e.stopPropagation()}
       >
         <div class="flex flex-col items-center justify-center">
-          <div class="">
+          <div class="rounded-[32px]">
             <img
-              class="w-[388px] h-[390px] rounded-[16px] pt-[12px]"
+              class="w-[388px] h-[390px] pt-[12px] rounded-[32px]"
               src={require("../Theme/Img/variant2img.png")}
               alt="car"
             />
