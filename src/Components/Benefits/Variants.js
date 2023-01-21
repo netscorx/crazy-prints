@@ -59,7 +59,7 @@ export default function Variants() {
           <h2 class="text-[#3C6772] text-[64px] font-about">Variant 2</h2>
           <div class="pt-[200px]">
             <div class="bg-variant2img bg-cover absolute w-[545px] h-[413px] bottom-[0] px-[32px] rounded-[32px]">
-              <div class="absolute bottom-[62%] w-[80%]">
+              <div class="absolute bottom-[55%] w-[80%]">
                 <div class="flex items-center pb-[24px]">
                   <div class="bg-[#FFFFFF] w-[24px] h-[24px] rounded-[12px] mr-[24px] absolute" />
                   <p class="text-[#FFFFFF] text-[20px] font-main ml-[80px]">
