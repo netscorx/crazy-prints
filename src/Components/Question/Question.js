@@ -55,13 +55,17 @@ export default function Question() {
       <div class="flex flex-wrap">
         <div class="flex flex-col">
           {textData
-            .map((el) => <Window name={el.name} text={el.text} />)
+            .map((el) => (
+              <Window name={el.name} text={el.text} key={Math.random()} />
+            ))
             .slice(0, textData.length / 2)}
         </div>
         <div>
           <div class="flex flex-col">
             {textData
-              .map((el) => <Window name={el.name} text={el.text} />)
+              .map((el) => (
+                <Window name={el.name} text={el.text} key={Math.random()} />
+              ))
               .slice(textData.length / 2)}
           </div>
         </div>

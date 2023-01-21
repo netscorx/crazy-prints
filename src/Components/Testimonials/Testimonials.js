@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 
 const data = [
@@ -14,13 +14,33 @@ const data = [
 ];
 
 export default function Testimonials() {
+  const [isDown, setIsDown] = useState(false);
+  let startX;
+  let scrollLeft;
+
   return (
     <div class="bg-testimonials bg-cover overflow-hidden">
       <div class="pt-[200px] flex flex-col justify-center items-center">
         <h2 class="text-[#FFFFFF] text-[64px] font-about">Testimonials</h2>
-        <div class="flex gap-[90px]">
+        <div
+          class="flex gap-[90px]"
+          onMouseDown={(e) => {
+            setIsDown(true);
+            console.log(e.pageX);
+          }}
+          onMouseLeave={() => {
+            setIsDown(false);
+          }}
+          onMouseUp={() => {
+            setIsDown(false);
+          }}
+          onMouseMove={() => {
+            if (!isDown) return;
+            console.log(isDown);
+          }}
+        >
           {data.map((el) => (
-            <Card text={el.text} />
+            <Card key={Math.random()} text={el.text} />
           ))}
         </div>
       </div>
