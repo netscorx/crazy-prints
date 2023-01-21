@@ -8,6 +8,7 @@ import HowItsWorks from "../../Components/HowItsWorks/HowItsWorks";
 import Question from "../../Components/Question/Question";
 import ShowCase from "../../Components/Showcase/ShowCase";
 import Testimonials from "../../Components/Testimonials/Testimonials";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Main() {
   return (
@@ -26,6 +27,7 @@ export default function Main() {
         <Question />
         <ShowCase />
         <Testimonials />
+        <Footer />
       </div>
     </div>
   );
