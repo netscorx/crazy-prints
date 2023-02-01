@@ -1,19 +1,22 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { openModal } from "../../store/helpers/helpersSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { openModal, openBurger } from "../../store/helpers/helpersSlice";
+import Hamburger from "hamburger-react";
 
 export default function Header() {
   const dispatch = useDispatch();
+	const burger = useSelector((state) => state.helpers.burger);
+
 
   return (
-    <div class="flex items-center justify-between mx-[64px] pt-[20px]">
-      <div class="flex items-center">
+    <div class="flex items-center justify-between mx-[64px] pt-[20px] ">
+      <div class="items-center flex">
         <div class="cursor-pointer">
           <a href="/">
             <img src={require("../Theme/Img/logo.png")} alt="Logo" />
           </a>
         </div>
-        <div>
+        <div class="lg:flex hidden">
           <ul class="flex items-center gap-8 ml-[80px]">
             <li class="cursor-pointer">
               <a href="/" class="font-main text-white text-lg">
@@ -33,7 +36,7 @@ export default function Header() {
           </ul>
         </div>
       </div>
-      <div class="flex items-center">
+      <div class="items-center lg:flex hidden">
         <ul class="flex items-center gap-8">
           <li class="cursor-pointer">
             <a href="/" class="font-main text-white text-lg">
@@ -54,6 +57,17 @@ export default function Header() {
         >
           Get started now
         </button>
+      </div>
+      <div class="items-center lg:hidden flex">
+        <Hamburger
+          toggled={burger}
+          toggle={() => {
+						dispatch(openBurger(!burger));
+            
+          }}
+          direction="right"
+          color="#ffffff"
+        />
       </div>
     </div>
   );
