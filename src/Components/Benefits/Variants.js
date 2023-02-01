@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Variants() {
   return (
-    <div class="flex justify-center">
+    <div class="flex justify-center xl:flex-row flex-col items-center gap-[100px] xl:gap-0">
       <div class="w-[545px] h-[801px] bg-variant1 bg-cover relative rounded-[32px]">
         <h2 class="text-[#3C6772] text-[64px] font-about float-right">
           Variant 1
@@ -54,7 +54,7 @@ export default function Variants() {
           </div>
         </div>
       </div>
-      <div class="ml-[64px]">
+      <div class=" xl:ml-[64px]  ml-[0px]">
         <div class="w-[545px] h-[801px] bg-variant2 bg-cover relative rounded-[32px]">
           <h2 class="text-[#3C6772] text-[64px] font-about">Variant 2</h2>
           <div class="pt-[200px]">

@@ -52,7 +52,7 @@ export default function Question() {
           Frequently asked questions
         </h2>
       </div>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-center">
         <div class="flex flex-col">
           {textData
             .map((el) => (

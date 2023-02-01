@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Benefits() {
   return (
-    <div class="pt-[100px] flex flex-col justify-center items-center">
+    <div class="pt-[100px] flex flex-col justify-center items-center w-[95%]">
       <div class="flex flex-col justify-center items-center  max-w-[883px]">
         <h2 class="font-about text-regular-blue text-[64px] leading-[77px] mb-[24px] ">
           Benefits
@@ -13,7 +13,7 @@ export default function Benefits() {
           many advantages of using our AI-powered storybook creator:
         </p>
       </div>
-      <div class="flex m-[64px]">
+      <div class="flex m-[64px] xl:flex-row flex-col">
         <div class="flex items-center flex-col">
           <div class="flex flex-col items-start mb-[40px] w-[425px] py-[44px] px-[32px] gap-[16px] rounded-[30px] divide-[#7AB59F] border-[3px]">
             <h2 class="font-main text-[32px]">Personalization: </h2>
@@ -40,7 +40,7 @@ export default function Benefits() {
             </p>
           </div>
         </div>
-        <div class="flex items-center flex-col">
+        <div class="items-center flex-col xl:flex  hidden">
           <img
             class="max-w-[none] mx-[50px]"
             src={require("../Theme/Img/image-5.png")}

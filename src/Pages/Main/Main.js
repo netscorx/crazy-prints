@@ -28,12 +28,10 @@ export default function Main() {
         <Variants />
         <HowItsWorks />
       </div>
-      <div class="bg-questionImage  bg-[length:100%]">
+      <div class="bg-questionImage  bg-[length:100%_3024px]">
         <Question />
         <ShowCase />
-        <div class="relative">
-          <Testimonials />
-        </div>
+        <Testimonials />
         <Footer />
       </div>
     </div>

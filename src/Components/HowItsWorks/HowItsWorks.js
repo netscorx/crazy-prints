@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HowItsWorks() {
   return (
-    <div class="flex flex-col justify-center items-center mt-[200px] mb-[64px]">
+    <div class="flex flex-col justify-center items-center mt-[200px] mb-[64px] w-[95%]">
       <div class="flex flex-col justify-center items-center">
         <h2 class="text-[#3C6772] text-[64px] font-about float-right">
           How it works?
